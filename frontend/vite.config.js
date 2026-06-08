@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': { target: 'https://focohexa.onrender.com', changeOrigin: true },
+      '/api': { target: 'https://focohexa.vercel.app', changeOrigin: true },
     },
   },
 });
